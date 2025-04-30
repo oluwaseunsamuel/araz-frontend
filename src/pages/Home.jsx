@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import About from "../components/AboutSection";
 import Contact from "../components/ContactSection";
 import Footer from "../components/Footer";
@@ -12,7 +13,7 @@ import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
-    <div>
+    <motion.div>
       <Header />
       <Navbar />
       <About />
@@ -24,7 +25,7 @@ const Home = () => {
       <Testimonial />
       <Contact />
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 

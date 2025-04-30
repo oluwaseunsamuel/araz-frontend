@@ -6,7 +6,7 @@ import menu_icon from "./menu_icon.svg";
 import star_icon from "./star_icon.svg";
 import left_arrow from "./left_arrow.svg";
 import right_arrow from "./right_arrow.svg";
-import about_img from "./about_img.png";
+import about_img from "./about_img.jpg";
 import our_vision_img from "./our_mission_img.jpeg";
 import project_pic_1 from "./project_pic_1.jpeg";
 import project_pic_2 from "./project_pic_2.jpeg";

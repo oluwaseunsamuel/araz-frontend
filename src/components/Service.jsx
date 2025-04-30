@@ -1,11 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./Service.css";
 import { assets } from "../assets/assets";
 
 const Service = () => {
   return (
-    <div className="container mx-auto py-12 lg:px-32 w-full overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="container mx-auto py-12 lg:px-32 w-full overflow-hidden"
+    >
       <h2 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
         Services{" "}
         <span className="text-orange-500 underline underline-offset-4 decoration-1 under font-light">
@@ -150,7 +157,7 @@ const Service = () => {
           </TabPanel>
         </Tabs>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 
 const ContactSection = () => {
@@ -30,7 +31,13 @@ const ContactSection = () => {
   };
 
   return (
-    <div className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1.5 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
+    >
       <h2 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
         Contact{" "}
         <span className="text-orange-500 underline underline-offset-4 decoration-1 under font-light">
@@ -96,7 +103,7 @@ const ContactSection = () => {
           {result ? result : "SEND MESSAGE"}
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 

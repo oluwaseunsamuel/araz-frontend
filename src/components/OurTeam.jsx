@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
+import { motion } from "framer-motion";
 import { assets } from "../assets/assets";
 import { Link } from "react-router-dom";
 
 const OurTeam = () => {
   return (
-    <div className="container mx-auto py-12 lg:px-32 w-full overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1.5 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="container mx-auto py-12 lg:px-32 w-full overflow-hidden"
+    >
       <h2 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
         Our Team{" "}
         <span className="text-orange-500 underline underline-offset-4 decoration-1 under font-light">
@@ -77,7 +84,7 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

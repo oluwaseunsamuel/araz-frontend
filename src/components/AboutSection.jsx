@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
@@ -7,7 +8,13 @@ const About = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 1.5 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="flex flex-col items-center justify-center container mx-auto p-4 md:px-20 lg:px-32 py-12 w-full overflow-hidden"
+    >
       <h2 className="text-2xl sm:text-4xl font-bold mb-2">
         About{" "}
         <span className="text-orange-500 underline underline-offset-4 decoration-1 under font-light">
@@ -56,7 +63,7 @@ const About = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

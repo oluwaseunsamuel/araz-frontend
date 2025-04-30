@@ -30,7 +30,7 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={handleButtonClick}
-      className="fixed bottom-4 right-4 rounded-full bg-white p-2 shadow-lg flex items-center justify-center"
+      className="fixed md:bottom-4 bottom-6 right-4 rounded-full bg-white p-2 shadow-lg flex items-center justify-center"
       style={{
         width: "60px",
         height: "60px",
