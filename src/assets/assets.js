@@ -27,6 +27,7 @@ import service_img_3 from "./service_img_3.jpeg";
 import service_img_4 from "./service_img_4.jpeg";
 import rent_img_1 from "./miniflatedited.jpg";
 import logo_for_signin from "./images.jpg";
+import site_progress_img from "./site_progress_img.jpg";
 
 export const assets = {
   arazLogo,
@@ -55,6 +56,7 @@ export const assets = {
   team_img_1,
   rent_img_1,
   logo_for_signin,
+  site_progress_img,
 };
 
 export const projectsData = [
