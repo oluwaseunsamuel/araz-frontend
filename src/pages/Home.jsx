@@ -10,7 +10,7 @@ import RentSection from "../components/RentCardSection";
 import SaleSection from "../components/SaleCardSection";
 import Service from "../components/Service";
 import Testimonial from "../components/Testimonial";
-import SiteProgress from "../components/Siteprogress";
+import SiteProgress from "../components/ProjectSection";
 
 const Home = () => {
   return (
