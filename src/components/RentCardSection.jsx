@@ -25,62 +25,86 @@ const RentCardSection = () => {
       {/*---- View More Rent Property Section  -----*/}
       <div className="flex flex-row justify-between text-gray-800 mb-5">
         <h2 className="text-xl">Rent's Property Collection</h2>
-        <Link to="/rent" className="text-lg flex flex-row text-orange-500">
+        <Link
+          to="/rent"
+          className="text-lg flex flex-row text-orange-500 hover:text-yellow-950 transition-all ease-in-out duration-300"
+        >
           View All <IoIosArrowRoundForward className="h-7 w-5 ml-1" />
         </Link>
       </div>
       {/*---- Rent items Collection Section  -----*/}
       <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+        {/*---- Rent Collection One  -----*/}
         <div className="shadow-lg">
           <Link to="#">
-            <img src={assets.rent_img_1} alt="" className="" />
+            <img
+              src={assets.rent_img_1}
+              alt=""
+              className="cursor-pointer hover:scale-105 ease-in-out duration-500"
+            />
           </Link>
           <div className="p-3">
-            <h3 className="mb-1 text-gray-800">Room & Parlour Self Contain</h3>
-            <p className="text-orange-500 text-sm">Ilupeju, Lagos</p>
-            <p className="text-sm text-gray-800 mb-2">For Rent</p>
-            <button className="text-sm py-2 px-4 bg-orange-500 text-white">
-              Get More
-            </button>
+            <h3 className="mb-1 text-gray-800">
+              Room & Parlour Self Contain | Spacious
+            </h3>
+            <p className="text-orange-500 text-sm mb-2">Ilupeju, Lagos</p>
+            <p className="text-sm text-gray-800">For Rent</p>
           </div>
         </div>
+
+        {/*---- Rent Collection Two  -----*/}
         <div className="shadow-lg">
           <Link to="#">
-            <img src={assets.rent_img_1} alt="" className="" />
+            <img
+              src={assets.rent_img_2}
+              alt=""
+              className="cursor-pointer hover:scale-105 ease-in-out duration-500"
+            />
           </Link>
           <div className="p-3">
-            <h3 className="mb-1 text-gray-800">Room & Parlour Self Contain</h3>
-            <p className="text-orange-500 text-sm">Ilupeju, Lagos</p>
-            <p className="text-sm text-gray-800 mb-2">For Rent</p>
-            <button className="text-sm py-2 px-4 bg-orange-500 text-white">
-              Get More
-            </button>
+            <h3 className="mb-1 text-gray-800">
+              3 Bedroom Flat | All Rooms Ensuite{" "}
+            </h3>
+            <p className="text-orange-500 text-sm mb-2">Ilupeju, Lagos</p>
+            <p className="text-sm text-gray-800">For Rent</p>
           </div>
         </div>
+
+        {/*---- Rent Collection Three  -----*/}
         <div className="shadow-lg">
           <Link to="#">
-            <img src={assets.rent_img_1} alt="" className="" />
+            <img
+              src={assets.rent_img_3}
+              alt=""
+              className="cursor-pointer hover:scale-105 ease-in-out duration-500"
+            />
           </Link>
           <div className="p-3">
-            <h3 className="mb-1 text-gray-800">Room & Parlour Self Contain</h3>
-            <p className="text-orange-500 text-sm">Ilupeju, Lagos</p>
-            <p className="text-sm text-gray-800 mb-2">For Rent</p>
-            <button className="text-sm py-2 px-4 bg-orange-500 text-white">
-              Get More
-            </button>
+            <h3 className="mb-1 text-gray-800">
+              4 Bedroom Duplex | All Rooms Ensuite
+            </h3>
+            <p className="text-orange-500 text-sm mb-2">
+              Magodo Phase 1, Lagos
+            </p>
+            <p className="text-sm text-gray-800">For Rent</p>
           </div>
         </div>
+
+        {/*---- Rent Collection Four  -----*/}
         <div className="shadow-lg">
           <Link to="#">
-            <img src={assets.rent_img_1} alt="" className="" />
+            <img
+              src={assets.rent_img_4}
+              alt=""
+              className="cursor-pointer hover:scale-105 ease-in-out duration-500"
+            />
           </Link>
           <div className="p-3">
-            <h3 className="mb-1 text-gray-800">Room & Parlour Self Contain</h3>
-            <p className="text-orange-500 text-sm">Ilupeju, Lagos</p>
-            <p className="text-sm text-gray-800 mb-2">For Rent</p>
-            <button className="text-sm py-2 px-4 bg-orange-500 text-white">
-              Get More
-            </button>
+            <h3 className="mb-1 text-gray-800">
+              Room, Room & Parlour Self Contain Services Apartment
+            </h3>
+            <p className="text-orange-500 text-sm mb-2">Fola-Agoro, Lagos</p>
+            <p className="text-sm text-gray-800">For Rent</p>
           </div>
         </div>
       </div>

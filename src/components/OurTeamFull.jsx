@@ -76,7 +76,7 @@ const OurTeamFull = () => {
         <div className="w-[320px] shadow-xl rounded p-4">
           <div className="w-52 mx-auto">
             <img
-              src={assets.team_img_1}
+              src={assets.team_img_3}
               alt="Team Image"
               className="mb-4 object-fill"
             />
@@ -98,12 +98,14 @@ const OurTeamFull = () => {
         </div>
       </div>
       <hr className="h-[2px] bg-gray-300 my-10" />
+
       <h3 className="mb-3 p-2">Leadership Team</h3>
+
       <div className="flex flex-wrap mx-auto justify-center gap-6">
         <div className="w-[320px] shadow-xl rounded p-4">
           <div className="w-52 mx-auto">
             <img
-              src={assets.team_img_1}
+              src={assets.team_img_4}
               alt="Team Image"
               className="mb-4 object-fill"
             />
@@ -149,7 +151,7 @@ const OurTeamFull = () => {
         <div className="w-[320px] shadow-xl rounded p-4">
           <div className="w-52 mx-auto">
             <img
-              src={assets.team_img_1}
+              src={assets.team_img_6}
               alt="Team Image"
               className="mb-4 object-fill"
             />

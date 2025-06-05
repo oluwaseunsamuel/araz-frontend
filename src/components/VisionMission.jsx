@@ -20,23 +20,24 @@ const VisionMission = () => {
             Our Vision:
           </h3>
           <p className="mb-8 font-light">
-            Our aim is to be “a preferred real estate development brand” in
-            Africa and Beyond.
+            To be the first choice provider for affordable and luxurious housing
+            solutions in the country.
           </p>
           <h3 className="text-3xl font-semibold mb-2 text-yellow-950">
             Our Mission:
           </h3>
           <p className="mb-8 font-light">
-            A team of professionals committed to advancing lives through design,
-            lifestyle and thriving communities.
+            Double our real estate portfolio and client base annually, with
+            unique designs and creative product offerings that guarantee
+            customer satisfaction and appeal to their aspirations.
           </p>
           <h3 className="text-2xl font-semibold mb-2 text-yellow-950">
             Our Core Value
           </h3>
-          <p className="text-base">B - Believe</p>
+          <p className="text-base">P - Professionalism</p>
+          <p className="text-base">I - Integrity</p>
+          <p className="text-base">C - Customer Satisfaction</p>
           <p className="text-base">E - Excellence</p>
-          <p className="text-base">S - Service</p>
-          <p className="text-base">T - Trust</p>
         </div>
         <div className="md:w-1/2 items-center my-auto object-cover">
           <img

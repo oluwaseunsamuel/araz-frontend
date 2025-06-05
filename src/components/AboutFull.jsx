@@ -43,10 +43,11 @@ const AboutFull = () => {
             </div>
           </div>
           <p className="my-10 max-w-lg">
-            Our Company is Register under the Nigeria Company Statory Law in
-            2013. It was register to provide business in a aspect of real estate
-            and construction industry. The aims of the organisation is to
-            provide affordable housing for low and high income earner.
+            Araz Development Company Limited is registered in 2013 under the
+            Companies and Allied Matters Act with the primary business object of
+            engaging in all aspects of real estate and construction industry.
+            The mission of this company is to provide comfortable and affordable
+            housing for low, medium and high-income earners.
           </p>
           <button
             onClick={() => setShowModal(true)}
@@ -63,29 +64,46 @@ const AboutFull = () => {
             How it all began:
           </h3>
           <p className=" mb-5 font-normal text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-            minima debitis ipsam. Molestiae eum ab, nostrum facere aliquid
-            officiis dolore, magni magnam laboriosam vel, praesentium voluptatem
-            delectus veritatis quos ipsam! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit.
+            Razaq Akanbi, founders of Araz Development Company Limited, was
+            inspired to start the company by the desire to make a difference
+            after witnessing how several industry players have sacrificed
+            integrity and the important social functions of helping people meet
+            their housing needs for personal success or becoming wealthy
+            individuals in real estate business, Coming from a long line of
+            entrepreneurs and armed with a determination to prioritise clients’
+            interest over quick wealth acquisition that was becoming the
+            hallmarks of the industry, Razaq and group of individuals that
+            shared the same idea launched this real estate investment and
+            management firm some years ago.
           </p>
           <h3 className="text-lg font-medium text-gray-700 mb-3 uppercase">
             Our Present Stage:
           </h3>
           <p className="mb-5 font-normal text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit consectetur odit nostrum itaque harum accusantium
-            dicta aliquam hic necessitatibus deleniti neque, officia est enim,
-            quis pariatur qui!
+            Within a short time, Araz Development Company Limited quickly became
+            recognised as a potential industry leader and threat to the
+            dominance of real estate firm putting personal interests against
+            clients’ needs. Now celebrating their 8th year of operation, Araz
+            Development Company Limited, which has since grown into a
+            multi-faceted company with numerous accolades and recognition,
+            including being named one of the fastest-growing real estate
+            companies in Nigeria is among the top 10 real estate company in
+            Lagos State and consistently grows at a 20% pace.
           </p>
           <h3 className="text-lg font-medium text-gray-700 mb-3 uppercase">
-            Our Next and Future Stage:
+            What is Next For Us:
           </h3>
           <p className="mb-5 font-normal text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit consectetur odit nostrum itaque harum accusantium
-            dicta aliquam hic necessitatibus deleniti neque, officia est enim,
-            quis pariatur qui!
+            With the geometrically increasing demand for real estate services
+            and determination to acquire substantial share of the market through
+            innovations geared towards clients’ ultimate satisfaction, Araz
+            Development Company Limited aim to attain diversification as a core
+            strategy for its construction and engineering activities. Beyond
+            traditional project-centric models, focus will be on exploring new
+            revenue streams such as facilities management, services and
+            maintenance, modular and prefabricated construction, and rental
+            models all with the mission to better the real estate experience of
+            clients.
           </p>
         </div>
       </Modal>

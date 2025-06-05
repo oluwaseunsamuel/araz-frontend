@@ -28,8 +28,8 @@ const Navbar = () => {
           />
         </div>
         <ul className="hidden sm:flex items-center gap-6 text-base text-white">
-          <NavLink to="/" className="flex flex-col items-center gap-1">
-            <p>HOME</p>
+          <NavLink to="/" className="flex flex-col items-center gap-1 ">
+            <p className="">HOME</p>
             <hr className="w-2/4 border-none h-[1.5px] bg-orange-500 hidden" />
           </NavLink>
 
@@ -60,7 +60,7 @@ const Navbar = () => {
         </ul>
         <button
           onClick={() => navigate("/signin")}
-          className="hidden sm:flex items-center gap-2 bg-orange-500 md:px-8 md:py-2 px-6 py-2 text-white text-base"
+          className="hidden sm:flex items-center gap-2 bg-orange-500 md:px-8 md:py-2 px-6 py-2 text-white text-base hover:bg-yellow-950 transitions-all duration-500 ease-in-out"
         >
           SIGN IN <IoIosArrowRoundForward />
         </button>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <Link to="/signin">
             <button
               onClick={() => setShowMobileMenu(false)}
-              className="flex items-center gap-2 mt-2 bg-orange-500 px-6 py-2 text-white text-base"
+              className="flex items-center gap-2 mt-2 bg-orange-500 px-6 py-2 text-white text-base hover:bg-yellow-950 transitions-all duration-500 ease-in-out"
             >
               SIGN IN <IoIosArrowRoundForward />
             </button>

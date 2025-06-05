@@ -32,7 +32,7 @@ const ContactSection = () => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -200 }}
+      initial={{ opacity: 0, x: 200 }}
       transition={{ duration: 1.5 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
@@ -99,7 +99,7 @@ const ContactSection = () => {
             required
           ></textarea>
         </div>
-        <button className=" bg-orange-500 text-white md:px-8 md:py-3 px-6 py-2 mb-10">
+        <button className="hover:bg-yellow-950 bg-orange-500 text-white md:px-8 md:py-3 px-6 py-2 mb-10 transitions-all duration-500 ease-in-out">
           {result ? result : "SEND MESSAGE"}
         </button>
       </form>

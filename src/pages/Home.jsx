@@ -11,10 +11,11 @@ import SaleSection from "../components/SaleCardSection";
 import Service from "../components/Service";
 import Testimonial from "../components/Testimonial";
 import SiteProgress from "../components/SiteProgress";
+import Accordions from "../components/AccordionSection";
 
 const Home = () => {
   return (
-    <motion.div>
+    <motion.div initial={{}} animate={{}} exit={{}} transition={{}}>
       <Header />
       <Navbar />
       <SiteProgress />
@@ -25,6 +26,7 @@ const Home = () => {
       <RentSection />
       <OurTeam />
       <Testimonial />
+      <Accordions />
       <Contact />
       <Footer />
     </motion.div>

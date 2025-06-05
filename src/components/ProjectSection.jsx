@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { assets, projectsData } from "../assets/assets";
+import { useEffect, useState } from "react";
+import { projectsData } from "../assets/assets";
 import { motion } from "framer-motion";
+import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 
 const ProjectSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,20 +51,20 @@ const ProjectSection = () => {
       </p>
 
       {/*----Slider Section Button */}
-      <div className="flex justify-end items-center mb-8">
+      <div className="flex justify-end items-center mb-8 md:gap-3">
         <button
           onClick={prevProject}
-          className="p-3 bg-gray-200 rounded mr-2"
+          className="p-2 bg-orange-500 hover:bg-yellow-950 transition-all ease-in-out duration-300 mr-2"
           aria-label="Previous Project"
         >
-          <img src={assets.left_arrow} alt="Previous" />
+          <RiArrowLeftSLine size={30} style={{ color: "white" }} />
         </button>
         <button
           onClick={nextProject}
-          className="p-3 bg-gray-200 rounded mr-2"
+          className="p-2 bg-orange-500 hover:bg-yellow-950 transition-all ease-in-out duration-300 mr-2"
           aria-label="Next Project"
         >
-          <img src={assets.right_arrow} alt="Next" />
+          <RiArrowRightSLine size={30} style={{ color: "white" }} />
         </button>
       </div>
 
@@ -80,9 +81,9 @@ const ProjectSection = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-auto mb-14"
+                className="w-full h-auto mb-14 cursor-pointer hover:scale-110 ease-in-out duration-300"
               />
-              <div className="absolute left-0 right-0 bottom-5 flex justify-center">
+              <div className="absolute left-0 right-0 bottom-1 flex justify-center">
                 <div className="inline-block bg-white w-3/4 px-3 py-2 shadow-md">
                   <h2 className="text-xl font-semibold text-gray-800">
                     {project.title}

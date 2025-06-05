@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { assets, testimonialsData } from "../assets/assets";
 
@@ -24,7 +23,7 @@ const Testimonial = () => {
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="max-w-[320px] border shadow-lg rounded px-8 py-12 text-center"
+            className="max-w-[320px] border shadow-lg px-8 py-12 text-center"
           >
             <img
               className="w-20 h-20 rounded-full mx-auto mb-4"
@@ -40,7 +39,7 @@ const Testimonial = () => {
                 <img key={index} src={assets.star_icon} alt="" />
               ))}
             </div>
-            <p className="text-gray-600">{testimonial.text}</p>
+            <p className="text-gray-600 text-justify">{testimonial.text}</p>
           </div>
         ))}
       </div>

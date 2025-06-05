@@ -1,23 +1,21 @@
 import arazLogo from "./arazlogo.png";
 import arazFootLogo from "./arazlogo-min.png";
 import team_img_1 from "./avatar2.png";
+import team_img_3 from "./team-img-3.png";
+import team_img_4 from "./team-img-4.png";
+import team_img_6 from "./team-img-6.png";
 import cross_icon from "./cross_icon.svg";
 import menu_icon from "./menu_icon.svg";
 import star_icon from "./star_icon.svg";
-import left_arrow from "./left_arrow.svg";
-import right_arrow from "./right_arrow.svg";
 import about_img from "./about_img.jpg";
 import our_vision_img from "./our_mission_img.jpeg";
-import project_pic_1 from "./project_pic_1.jpeg";
-import project_pic_2 from "./project_pic_2.jpeg";
-import project_pic_3 from "./project_pic_3.jpeg";
-import project_pic_4 from "./project_pic_4.jpeg";
-import project_pic_5 from "./project_pic_5.jpeg";
-import project_pic_6 from "./project_pic_6.jpeg";
-import project_pic_7 from "./project_pic_7.jpeg";
-import project_pic_8 from "./project_pic_8.jpg";
-import project_pic_9 from "./project_pic_9.jpg";
-import project_pic_10 from "./magodo_pic.jpeg";
+import project_pic_1 from "./project-img-1.png";
+import project_pic_2 from "./project-img-2.png";
+import project_pic_3 from "./project-img-3.png";
+import project_pic_4 from "./project-img-4.png";
+import project_pic_5 from "./project-img-5.png";
+import project_pic_6 from "./project-img-6.png";
+import project_pic_7 from "./project-img-7.png";
 import profile_img_1 from "./profile_img_1.png";
 import profile_img_2 from "./profile_img_2.png";
 import profile_img_3 from "./profile_img_3.png";
@@ -25,7 +23,15 @@ import service_img_1 from "./service_img_1.jpg";
 import service_img_2 from "./service_img_2.jpeg";
 import service_img_3 from "./service_img_3.jpeg";
 import service_img_4 from "./service_img_4.jpeg";
-import rent_img_1 from "./miniflatedited.jpg";
+import service_img_5 from "./service_img_5.jpeg";
+import sale_img_1 from "./sale-img-1.png";
+import sale_img_2 from "./sale-img-2.png";
+import sale_img_3 from "./sale-img-3.png";
+import sale_img_4 from "./sale-img-4.png";
+import rent_img_1 from "./rent-img-1.png";
+import rent_img_2 from "./rent-img-2.png";
+import rent_img_3 from "./rent-img-3.png";
+import rent_img_4 from "./rent-img-4.png";
 import logo_for_signin from "./images.jpg";
 import site_progress_img from "./site_progress_img.jpg";
 
@@ -44,17 +50,23 @@ export const assets = {
   project_pic_5,
   project_pic_6,
   project_pic_7,
-  project_pic_8,
-  project_pic_9,
-  project_pic_10,
   service_img_1,
   service_img_2,
   service_img_3,
   service_img_4,
-  left_arrow,
-  right_arrow,
+  service_img_5,
+  sale_img_1,
+  sale_img_2,
+  sale_img_3,
+  sale_img_4,
   team_img_1,
+  team_img_3,
+  team_img_4,
+  team_img_6,
   rent_img_1,
+  rent_img_2,
+  rent_img_3,
+  rent_img_4,
   logo_for_signin,
   site_progress_img,
 };
@@ -85,10 +97,10 @@ export const projectsData = [
     image: project_pic_4,
   },
   {
-    title: "4 Bedroom Duplex",
+    title: "4 Bedroom Duplex | All Ensuite",
     price: "Magodo",
     location: "Lagos",
-    image: project_pic_10,
+    image: project_pic_5,
   },
   {
     title: "3 Bedroom Flat Building",
@@ -111,7 +123,7 @@ export const testimonialsData = [
     image: profile_img_1,
     alt: "Portrait of Donald Jackman",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "From the very first meeting, the team displayed perfect understanding of my vision and helped me find the appropriate property suited to my investment plan. Their attention to detail and commitment to client satisfaction is unmatched.",
   },
   {
     name: "Richard Nelson",
@@ -119,7 +131,7 @@ export const testimonialsData = [
     image: profile_img_2,
     alt: "Portrait of Richard Nelson",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "I can testify to the result-orientated mentality of the Araz Development Company Limited as well as the tenacious can-do spirit of its management team and staff. They have such high attention to details and unparallel ability to conceptualize abstract ideas. Clients’ satisfaction appears to a mission they take most seriously.",
   },
   {
     name: "James Washington",
@@ -127,27 +139,6 @@ export const testimonialsData = [
     image: profile_img_3,
     alt: "Portrait of James Washington",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
-  },
-];
-
-export const teamData = [
-  {
-    name: "Akanbi Razaq",
-    title: "Chief Executive Officer",
-    text: "",
-    image: team_img_1,
-  },
-  {
-    name: "",
-    title: "Non Executive Director",
-    text: "",
-    image: team_img_1,
-  },
-  {
-    name: "Babajide Abiola",
-    title: "Manager Engineer",
-    text: "",
-    image: team_img_1,
+    text: "Since I have been dealing with Araz Development Company Limited, I have never had cause to regret my relationship with it. None of the real estate businesses I have facilitated for clients have always resulted in massive returns on investment or acquisition of satisfactory homes at most affordable prices.",
   },
 ];

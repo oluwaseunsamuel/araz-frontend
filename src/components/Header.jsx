@@ -26,15 +26,15 @@ const Header = () => {
             Welcome, and thank you for visiting.
           </p>
           <h1 className="mb-6 md:mb-8 text-2xl md:text-5xl font-bold">
-            We are Araz Development Company Limited
+            Araz Development Company Limited
           </h1>
           <p className="mb-8 md:mb-10 text-base md:text-xl text-gray-200 font-extralight">
-            Explore homes that fits your dreams, or join us by clicking the
-            button below
+            Begin the journey to acquiring homes that fit your dreams by
+            clicking the button below
           </p>
           <button
             onClick={() => navigate("/signin")}
-            className="flex items-center text-white text-base gap-2 md:px-8 md:py-3 px-6 py-2 bg-orange-500"
+            className="flex items-center text-white text-base gap-2 md:px-7 md:py-3 px-6 py-2 bg-orange-500 hover:bg-yellow-950 transitions-all duration-500 ease-in-out"
           >
             GET STARTED <IoIosArrowRoundForward />
           </button>

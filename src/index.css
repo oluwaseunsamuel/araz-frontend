@@ -10,4 +10,5 @@
 
 a.active hr {
   display: block;
+  overflow: hidden;
 }

@@ -50,14 +50,15 @@ const About = () => {
             </div>
           </div>
           <p className="my-10 max-w-lg">
-            Our Company is Register under the Nigeria Company Statory Law in
-            2013. It was register to provide business in a aspect of real estate
-            and construction industry. The aims of the organisation is to
-            provide affordable housing for low and high income earner.
+            Araz Development Company Limited is registered in 2013 under the
+            Companies and Allied Matters Act with the primary business object of
+            engaging in all aspects of real estate and construction industry.
+            The mission of this company is to provide comfortable and affordable
+            housing for low, medium and high-income earners.
           </p>
           <button
             onClick={() => navigate("/about")}
-            className="flex items-center text-white text-base gap-2 md:px-8 md:py-3 px-6 py-2 bg-orange-500 "
+            className="flex items-center text-white text-base gap-2 md:px-8 md:py-3 px-6 py-2 bg-orange-500 hover:bg-yellow-950 transitions-all duration-500 ease-in-out"
           >
             LEARN MORE <IoIosArrowRoundForward />
           </button>
