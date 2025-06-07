@@ -1,7 +1,7 @@
+import { useEffect, useState } from "react";
 import { assets } from "../assets/assets";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -76,7 +76,7 @@ const Navbar = () => {
       <div
         className={`md:hidden ${
           showMobileMenu ? "fixed w-full h-screen" : "h-0 w-0"
-        }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
+        }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all ease-in-out duration-500`}
       >
         <div className="flex justify-end p-6 cursor-pointer">
           <img

@@ -20,7 +20,7 @@ const OurTeam = () => {
           </span>
         </h2>
         <p className="text-center text-gray-500 mb-12 md:px-4 px-6 max-w-96 mx-auto">
-          Our dedicated team of technocrate are ready to give you the better of
+          Our dedicated team of technocrate are ready to give you the best of
           everything
         </p>
         <div className="flex flex-wrap mx-auto justify-center gap-6">

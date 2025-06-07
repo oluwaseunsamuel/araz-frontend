@@ -7,12 +7,14 @@ import VisionMission from "../components/VisionMission";
 import Service from "../components/Service";
 import OurTeamFull from "../components/OurTeamFull";
 import AboutFull from "../components/AboutFull";
+import SiteProgress from "../components/SiteProgress";
 
 const About = () => {
   return (
     <div className="">
       <Navbar />
       <OthersHeader contentHeader="ABOUT US" />
+      <SiteProgress />
       <AboutFull />
       <VisionMission />
       <Service />

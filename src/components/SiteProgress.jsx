@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Modal from "./Modal";
 import { assets } from "../assets/assets";
@@ -6,6 +6,14 @@ import { IoPlay } from "react-icons/io5";
 
 const SiteProgress = () => {
   const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [showModal]);
 
   return (
     <div className="bg-gray-50 pt-12">
@@ -63,6 +71,7 @@ const SiteProgress = () => {
               <iframe
                 width="100%"
                 height="315"
+                // src={`https://www.youtube.com/embed/${videoId}mbwuj58UEPg?si=obICb3UXfQtCinGN`}
                 src="https://www.youtube.com/embed/mbwuj58UEPg?si=obICb3UXfQtCinGN"
                 title="YouTube video player"
                 frameborder="0"

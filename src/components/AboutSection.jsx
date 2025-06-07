@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { assets } from "../assets/assets";

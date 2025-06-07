@@ -1,9 +1,9 @@
 import arazLogo from "./arazlogo.png";
 import arazFootLogo from "./arazlogo-min.png";
 import team_img_1 from "./avatar2.png";
-import team_img_3 from "./team-img-3.png";
-import team_img_4 from "./team-img-4.png";
-import team_img_6 from "./team-img-6.png";
+import team_img_3 from "./team-pic-kuye.png";
+import team_img_5 from "./team-pic-seun.png";
+import team_img_4 from "./team-pic-saheed.png";
 import cross_icon from "./cross_icon.svg";
 import menu_icon from "./menu_icon.svg";
 import star_icon from "./star_icon.svg";
@@ -62,7 +62,7 @@ export const assets = {
   team_img_1,
   team_img_3,
   team_img_4,
-  team_img_6,
+  team_img_5,
   rent_img_1,
   rent_img_2,
   rent_img_3,
